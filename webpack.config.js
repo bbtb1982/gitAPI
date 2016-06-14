@@ -18,6 +18,11 @@ module.exports = {
             }
         ]
     },
+    resolve: {
+        alias: {
+            jquery: "jquery/src/jquery"
+        }
+    },
     plugins: [
         // Avoid publishing files when compilation fails
         new webpack.NoErrorsPlugin()

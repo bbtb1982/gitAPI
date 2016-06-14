@@ -1,5 +1,8 @@
 import Point from './Point.js';
 import lodash from 'lodash';
+import {getJson} from './get-json.js';
+
+var stuff = getJson();
 
 var users = [
   { 'user': 'barney',  'age': 36, 'active': true },
